@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meine WG</title>
+
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+    <header class="flex">
+
+        <div class="container-header">
+
+            <h2>Meine Ski </h2>
+
+        </div>
+
+        <div class="container-header">
+
+
+        </div>
+
+        <nav class="container-header">
+
+            <a href="../">
+
+                <button id="neueSki"> Alle Ski</button>
+                
+            </a>
+
+            <button id="logout" onclick="logout()"> Logout </button>
+
+        </nav>
+
+    </header>
+
+    <p id="infoText"> </p>
+
+
+    <div id="meineSki">
+
+        <label for="titel">Titel</label> <br>
+        <input id="titel" type="text" value=""> <br>
+
+        <label for="adresse">Adresse</label> <br>
+        <input id="adresse" type="text" value=""> <br>
+
+        <label for="bild">Bild URL</label> <br>
+        <input id="bild" type="text" value=""> <br>
+        <img id="bild-vorschau" width="300px" src="" alt=""> <br>
+        <br> <br>
+
+        <label for="beschreibung">Beschreibung</label> <br>
+        <textarea id="beschreibung" name="beschreibung"> </textarea> <br> <br>
+
+        <label for="zeitraum_anfang">Zeitraum Anfang</label><br>
+        <input id="zeitraum_anfang" type="date" value=""> <br>
+
+        <label for="zeitraum_ende">Zeitraum Ende</label><br>
+        <input id="zeitraum_ende" type="date" value=""> <br>
+
+
+        </div>
+
+
+        <p>Status</p>
+        <input type="radio" id="status-frei" name="status" value="1">
+        <label for="status-frei">Verfügbar</label><br>
+
+        <input type="radio" id="status-besetzt" name="status" value="0">
+        <label for="status-besetzt">Nicht Verfügbar</label><br>
+
+        <button class="hidden" id="button-neue" onclick="neueSki()">Veröffentlichen</button>
+        <button class="hidden" id="button-aktualisieren" onclick="aktualisiereSki()">Aktualisieren</button>
+        <button class="hidden" id="button-loeschen" onclick="loescheSki()">Löschen</button>
+
+        <p id="nachricht"> </p>
+
+    </div>
+
+    <script src="js/ski.js"></script>
+
+</body>
+
+</html>

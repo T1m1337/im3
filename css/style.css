@@ -1,0 +1,93 @@
+html {
+
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+h1 {
+
+    font-size: 40px;
+    color: #4c86af;
+
+}
+
+.title{
+
+    text-align: center;
+}
+
+a {
+
+    color: rgb(5, 72, 100);
+}
+
+input {
+    margin: 10px;
+}
+
+textarea {
+    margin: 10px;
+    width: 50%;
+}
+
+button {
+
+    margin: 10px;
+
+}
+
+.dropdown{
+
+    margin: 10px;  
+}
+
+.ski {
+
+    border: 2px solid rgb(110, 168, 192);
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+.ski-image {
+
+    width: 50%;
+}
+
+#liste-ski {
+
+    width: 50%;
+    margin: auto;
+
+}
+
+nav {
+    text-align: right;
+}
+
+button {
+    background-color: #4c86af;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.flex {
+
+    display: flex;
+}
+
+.container-header {
+
+    width: 33%;
+}
+
+.hidden {
+
+    display: none;
+
+}
